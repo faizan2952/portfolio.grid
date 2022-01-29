@@ -1,0 +1,552 @@
+
+// @media screen and (max-width:1200px) {
+
+//     .side-nav {
+//         width: 24rem;
+//     }
+
+//     .portfolio-box {
+//         grid-template-columns: repeat(5, 1fr);
+
+//         &-profile-img {
+//             width: 80px;
+//             height: 80px;
+//             grid-column: 3 / 4;
+//         }
+
+//         &-list {
+//             grid-column: 3/4;
+
+//             &-items {
+//                 i {
+//                     padding: 0.9rem;
+//                 }
+//             }
+//         }
+//     }
+
+//     .header,
+//     .section-contact,
+//     .section-about,
+//     .section-facts,
+//     .section-gallery,
+//     .section-resume,
+//     .section-services,
+//     .section-skills,
+//     .section-testimonails {
+//         grid-column: col-end 2 / container-end;
+//     }
+
+//     .section-about {
+//         height: 60vh;
+//     }
+
+//     .about-info {
+//         grid-row: 5/11;
+
+//         &-list {
+//             grid-template-rows: repeat(4, 35px);
+//         }
+//     }
+
+//     .facts-cards {
+//         grid-template-rows: repeat(3, 60px);
+//     }
+
+//     .section-resume {
+//         height: 145.5vh;
+//     }
+
+//     .section-gallery {
+//         height: 140vh;
+//     }
+
+//     .testimonial-contentbox {
+//         padding: 0rem 1rem;
+
+//         &::before {
+//             left: 39%;
+//             bottom: -35%;
+//         }
+//     }
+
+//     .testi-btn {
+//         grid-column: 6/10;
+
+//     }
+
+//     .section-contact {
+//         height: 80vh;
+//     }
+
+//     .contact-info {
+//         grid-template-rows: 60px 60px 60px 1fr;
+//     }
+
+//     .contact-cards {
+//         grid-column: 2/4;
+//     }
+// }
+
+
+// @media screen and (max-width:991px) {
+
+//     .contentbox {
+//         grid-template-rows: repeat(2, 60px);
+
+//     }
+
+//     .side-nav {
+//         display: none;
+//         visibility: hidden;
+//     }
+
+//     .navigation {
+//         visibility: visible;
+//         overflow: hidden;
+//     }
+
+//     .header {
+//         grid-row: 1/2;
+//         height: 90vh;
+//     }
+
+//     .header,
+//     .section-contact,
+//     .section-about,
+//     .section-facts,
+//     .section-gallery,
+//     .section-resume,
+//     .section-services,
+//     .section-skills,
+//     .section-testimonails {
+//         grid-column: container-start / container-end;
+//     }
+
+//     .testimonial-contentbox {
+//         padding: 0rem 1rem;
+
+//         &::before {
+//             left: 40%;
+//             bottom: -30%;
+//         }
+//     }
+
+
+// }
+
+// @media screen and (max-width:768px) {
+
+//     .section-about,
+//     .section-facts,
+//     .facts-box,
+//     .section-services,
+//     .section-contact {
+//         height: auto;
+//     }
+
+//     .about-profile-img {
+//         grid-column: 5/9;
+//         grid-row: 4/7;
+//     }
+
+//     .about-info {
+//         grid-template-rows: 30px 30px 140px 50px;
+//         grid-row: 8/12;
+//         grid-column: 3/11;
+//     }
+
+//     .facts-box {
+//         grid-template-rows: 1fr 50px 1fr;
+//         grid-row: 5/11;
+//     }
+
+//     .facts-cards {
+//         grid-column: 3/6;
+
+//         &:nth-child(2) {
+//             grid-column: 8/11;
+//         }
+
+//         &:nth-child(3) {
+//             grid-column: 3/6;
+//             grid-row: 3/4;
+//             // margin-top: 6rem;
+//         }
+
+//         &:nth-child(4) {
+//             // margin-top: 6rem;
+//             grid-row: 3/4;
+//             grid-column: 8/11;
+//         }
+
+//     }
+
+//     .section-gallery {
+//         height: 120vh;
+//     }
+
+//     .gallery-list {
+//         grid-column: 5/11;
+//         margin-top: 3rem;
+
+//         &-items {
+//             margin-top: 1.8rem;
+//         }
+
+//     }
+
+//     .section-facts {
+//         grid-template-rows: repeat(11, 1fr);
+//     }
+
+//     .service-cards {
+//         margin-top: 4rem;
+//         grid-column: 3/6;
+
+//         &:nth-child(2) {
+//             grid-column: 8/11;
+//         }
+
+//         &:nth-child(3) {
+//             grid-row: 7/9;
+//             grid-column: 3/6;
+//         }
+
+//         &:nth-child(4) {
+//             grid-row: 7/9;
+//             grid-column: 8/11;
+//         }
+
+//         &:nth-child(5) {
+//             grid-column: 3/6;
+//             grid-row: 9/11;
+//         }
+
+//         &:nth-child(6) {
+//             grid-row: 9/11;
+//             grid-column: 8/11;
+//         }
+//     }
+
+//     .section-contact {
+//         grid-template-rows: repeat(24, 1fr);
+//     }
+
+//     .contact-info {
+//         grid-column: 3 / 11;
+//     }
+
+//     .contact-areas {
+//         grid-column: 3 / 11;
+//         grid-row: 14/23;
+//     }
+
+//     .testimonial-contentbox {
+//         &::before {
+//             bottom: -25%;
+//         }
+
+//         p {
+//             margin-top: 1rem;
+//         }
+//     }
+// }
+
+// @media screen and (max-width:400px) {
+
+//     .header {
+//         height: 100vh;
+//     }
+
+//     .contentbox {
+//         grid-column: 3/10;
+//         grid-template-rows: repeat(2, 50px);
+//     }
+
+//     .section-head {
+//         div {
+//             grid-template-rows: repeat(2, 50px);
+//         }
+
+//         &-heading {
+//             &::after {
+//                 top: 4rem;
+//                 width: 10%;
+//             }
+//         }
+//     }
+
+//     .about-profile-img {
+//         grid-column: 4/10;
+//     }
+
+//     .about-info {
+//         text-align: center;
+//         grid-column: 2/12;
+//     }
+
+//     .facts-box {
+//         grid-row: 4/-1;
+//         grid-template-rows: 1fr 80px 1fr 80px 1fr 80px 1fr;
+//     }
+
+//     .facts-cards {
+//         grid-column: 4/10;
+//         grid-template-rows: repeat(3, 40px);
+
+//         &:nth-child(2) {
+//             grid-row: 3/4;
+//             grid-column: 4/10;
+//         }
+
+//         &:nth-child(3) {
+//             grid-column: 4/10;
+//             grid-row: 5/6;
+//         }
+
+//         &:nth-child(4) {
+//             grid-column: 4/10;
+//             grid-row: 7/8;
+//         }
+//     }
+
+//     .section-skills {
+//         height: auto;
+//         grid-template-rows: repeat(9, 50px);
+//     }
+
+//     .skill-bar-box {
+//         grid-template-rows: repeat(2, 15px);
+//         grid-column: 2/12;
+//         grid-row: 5/6;
+
+//         &:nth-child(2) {
+//             grid-column: 2/12;
+//             grid-row: 6/7;
+//         }
+
+//         &:nth-child(3) {
+//             grid-column: 2/12;
+//             grid-row: 7/8;
+//         }
+
+//         &:nth-child(4) {
+//             grid-column: 2/12;
+//             grid-row: 8/9;
+//         }
+
+//         &:nth-child(5) {
+//             grid-column: 2/12;
+//             grid-row: 9/10;
+//         }
+
+//         &:last-child {
+//             grid-column: 2/12;
+//             grid-row: 10/11;
+//         }
+//     }
+
+//     .section-resume {
+//         height: auto;
+//         grid-template-rows: repeat(14, 150px);
+//     }
+
+
+
+//     .summary-info {
+//         grid-column: 4/11;
+//         grid-row: 3/5;
+//         grid-template-rows: repeat(3, 30px);
+//     }
+
+//     .prof-info {
+//         grid-column: 4/11;
+//         grid-row: 5/7;
+
+//         &:nth-child(2) {
+//             grid-column: 4/11;
+//             grid-row: 8/12;
+//         }
+
+//         &-years {
+//             height: 30px;
+//         }
+//     }
+
+//     .education-info {
+//         grid-column: 4/11;
+//         grid-row: 11/14;
+//         grid-template-rows: repeat(4, 30px);
+
+//         &:last-child {
+//             grid-column: 4/11;
+//             grid-row: 13/17;
+//         }
+
+//         &-years {
+//             height: 30px;
+//         }
+//     }
+
+//     .gallery-list {
+//         height: 30px;
+//         grid-row: 3/4;
+
+//         &-items {
+//             margin-top: 0.9rem;
+//         }
+//     }
+
+//     .section-gallery {
+//         height: auto;
+//         grid-template-rows: repeat(22, 1fr);
+//     }
+
+//     .cover {
+//         grid-row: 4/6;
+//         grid-column: 4/12;
+
+//         &:nth-of-type(2) {
+//             grid-row: 6/8;
+//             grid-column: 4/12;
+//         }
+
+//         &:nth-of-type(3) {
+//             grid-row: 8/10;
+//             grid-column: 4/12;
+//         }
+
+//         &:nth-of-type(4) {
+//             grid-row: 10/12;
+//             grid-column: 4/12;
+//         }
+
+//         &:nth-of-type(5) {
+//             grid-row: 12/14;
+//             grid-column: 4/12;
+//         }
+
+//         &:nth-of-type(6) {
+//             grid-row: 14/16;
+//             grid-column: 4/12;
+//         }
+
+//         &:nth-of-type(7) {
+//             grid-row: 16/18;
+//             grid-column: 4/12;
+//         }
+
+//         &:nth-of-type(8) {
+//             grid-row: 18/20;
+//             grid-column: 4/12;
+//         }
+
+//         &:nth-of-type(9) {
+//             grid-row: 20/22;
+//             grid-column: 4/12;
+//         }
+
+//     }
+
+//     .section-services {
+//         height: auto;
+//         grid-template-rows: repeat(16, 1fr);
+//     }
+
+//     .service-cards {
+//         grid-row: 4/5;
+//         grid-column: 5/9;
+
+//         &:nth-of-type(2) {
+//             grid-column: 5/9;
+//             grid-row: 6/7;
+//         }
+
+//         &:nth-of-type(3) {
+//             grid-column: 5/9;
+//             grid-row: 8/9;
+//         }
+
+//         &:nth-of-type(4) {
+//             grid-column: 5/9;
+//             grid-row: 10/11;
+//         }
+
+//         &:nth-of-type(5) {
+//             grid-column: 5/9;
+//             grid-row: 12/13;
+//         }
+
+//         &:nth-of-type(6) {
+//             grid-column: 5/9;
+//             grid-row: 14/15;
+//         }
+//     }
+
+//     .section-testimonails {
+//         height: auto;
+//         grid-template-rows: repeat(20, 60px);
+//     }
+
+//     .testimonial-box {
+//         grid-column: 3/13;
+//         grid-template-rows: 100px 50px;
+
+//         &:nth-child(2) {
+//             grid-column: 3/13;
+//             grid-row: 10/13;
+//         }
+
+//         &:nth-child(3) {
+//             grid-column: 3/13;
+//             grid-row: 15/19;
+//         }
+//     }
+
+//     .testimonial-contentbox {
+//         &::before {
+//             bottom: -33%;
+//             left: 44%;
+//         }
+//     }
+
+//     .testi-btn {
+//         grid-row: 20/21;
+//         grid-column: 4/12;
+//     }
+
+//     .contact-info {
+//         grid-column: 2/12;
+//     }
+
+//     .contact-areas {
+//         grid-template-rows: repeat(3, 55px) 1fr 70px;
+//         grid-column: 2/12;
+//         grid-row: 14/24;
+//         &-button{
+//             margin-top: 2rem;
+//             grid-row: 5/6;
+//         }
+//     }
+
+//     .form-group {
+//         grid-column: 1/5;
+
+//         &:nth-child(2) {
+//             grid-row: 2/3;
+//             grid-column: 1/5;
+//         }
+
+//         &:nth-child(3) {
+//             grid-row: 3/4;
+//             grid-column: 1/5;
+//         }
+
+//         &:nth-child(4) {
+//             grid-row: 4/5;
+//             grid-column: 1/5;
+//         }
+//     }
+
+// }
